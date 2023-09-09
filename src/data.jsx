@@ -1,0 +1,530 @@
+import {
+  FaHome,
+  FaUser,
+  FaFolderOpen,
+  FaEnvelopeOpen,
+  FaBriefcase,
+  FaGraduationCap,
+  FaCode,
+  FaCogs,
+} from "react-icons/fa";
+import { FiFileText, FiExternalLink } from "react-icons/fi";
+import { MdWorkHistory } from "react-icons/md";
+
+import Work1 from "./assets/project-1.png";
+import Work2 from "./assets/project-2.png";
+import Work3 from "./assets/project-3.png";
+import Work4 from "./assets/project-4.png";
+import Work5 from "./assets/project-5.png";
+import Work6 from "./assets/project-6.png";
+import Work7 from "./assets/project-7.png";
+import Work8 from "./assets/project-8.png";
+import Work9 from "./assets/project-9.png";
+
+export const links = [
+  {
+    id: 1,
+    name: "Home",
+    icon: <FaHome className='nav__icon' />,
+    path: "#home",
+  },
+  {
+    id: 2,
+    name: "About",
+    icon: <FaUser className='nav__icon' />,
+    path: "#about",
+  },
+  {
+    id: 5,
+    name: "Skills",
+    icon: <FaCogs className='nav__icon' />,
+    path: "#skills",
+  },
+  {
+    id: 6,
+    name: "Journey",
+    icon: <MdWorkHistory className='nav__icon' />,
+    path: "#journey",
+  },
+  {
+    id: 3,
+    name: "Portfolio",
+    icon: <FaFolderOpen className='nav__icon' />,
+    path: "#portfolio",
+  },
+  {
+    id: 4,
+    name: "Contact",
+    icon: <FaEnvelopeOpen className='nav__icon' />,
+    path: "#contact",
+  },
+];
+
+export const personalInfo = [
+  {
+    id: 1,
+    title: "First Name : ",
+    description: "Udhayasooriyan",
+  },
+
+  {
+    id: 2,
+    title: "Last Name : ",
+    description: "Kesavamurthy",
+  },
+
+  {
+    id: 3,
+    title: "Age : ",
+    description: "29 Years",
+  },
+
+  {
+    id: 4,
+    title: "Nationality : ",
+    description: "Indian",
+  },
+
+  {
+    id: 5,
+    title: "Freelance : ",
+    description: "Available",
+  },
+
+  {
+    id: 6,
+    title: "Location : ",
+    description: "Chennai",
+  },
+
+  {
+    id: 7,
+    title: "Phone : ",
+    description: "+91-7639718893",
+  },
+
+  {
+    id: 8,
+    title: "Email : ",
+    description: "usraising@mail.com",
+  },
+
+  {
+    id: 9,
+    title: "LinkedIn : ",
+    description: "Suriya-Kesavamurthy",
+  },
+
+  {
+    id: 10,
+    title: "Languages : ",
+    description: "English, Tamil, Hindi, Malayalam",
+  },
+];
+
+export const stats = [
+  {
+    id: 1,
+    no: "9+",
+    title: "Years of <br /> Experience",
+  },
+  {
+    id: 4,
+    no: "2+",
+    title: " Awards <br /> Won",
+  },
+];
+
+export const resume = [
+  {
+    id: 1,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Mar 2023 - Present",
+    title: "Full Stact Developer <span> Guvi </span>",
+    desc: "Learning Full Stack Developer (MERN).",
+  },
+  {
+    id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Dec 2022 - Feb 2023",
+    title: "Career Break",
+    desc: "Trying to change my Career & learning Programming languages (self Learning).",
+  },
+  {
+    id: 3,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Jan 2017 - Dec 2022",
+    title: "Technical Admin <span> Imdaad.LLC, U.A.E </span>",
+    desc: "I joined as a technician, then with my performance and skill set, I was promoted to lead technician and carry out all the jobs related to system updates in Maximo & SAP. And also create reports in MS Office (Excel & Word). Also won 2 times employee of the year from Client.",
+  },
+  {
+    id: 4,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Nov 2015 - June 2016",
+    title: "Technician <span> AL Ahelia Switchgears, Kuwait </span>",
+    desc: "Worked as a Technician.",
+  },
+  {
+    id: 5,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Jun 2012 - Oct 2013",
+    title: "Technician <span> EFS, Chennai </span>",
+    desc: "Worked as a Technician.",
+  },
+  {
+    id: 6,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "Apr 2023 - Prresent",
+    title:
+      "Bacholar in Computer Application <span> Kalasalingam University </span>",
+    desc: "Currently Pursuing",
+  },
+
+  {
+    id: 7,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "Jun 2009 - May 2012",
+    title: "Diploma in Electrical & Electronics <span> AVC College </span>",
+    desc: "First Class with Distinction & 89% ",
+  },
+
+  {
+    id: 8,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2008-2009",
+    title: "SSLC <span> Swami Vivekananda High School </span>",
+    desc: "Scored 83% with Centum in Mathematics",
+  },
+];
+
+export const skills = [
+  {
+    id: 1,
+    title: "HTML",
+    percentage: "90",
+  },
+  {
+    id: 2,
+    title: "CSS",
+    percentage: "90",
+  },
+  {
+    id: 3,
+    title: "JavaScript",
+    percentage: "85",
+  },
+  {
+    id: 4,
+    title: "React",
+    percentage: "85",
+  },
+  {
+    id: 5,
+    title: "Bootstrap",
+    percentage: "80",
+  },
+  {
+    id: 6,
+    title: "TailWind",
+    percentage: "60",
+  },
+  {
+    id: 7,
+    title: "NodeJs",
+    percentage: "75",
+  },
+  {
+    id: 8,
+    title: "ExpressJs",
+    percentage: "85",
+  },
+  {
+    id: 9,
+    title: "MongoDB",
+    percentage: "85",
+  },
+  {
+    id: 13,
+    title: "AWS",
+    percentage: "70",
+  },
+  {
+    id: 11,
+    title: "Git",
+    percentage: "85",
+  },
+  {
+    id: 10,
+    title: "MySql",
+    percentage: "60",
+  },
+  {
+    id: 15,
+    title: "PostMan",
+    percentage: "80",
+  },
+  {
+    id: 14,
+    title: "Redux",
+    percentage: "60",
+  },
+  {
+    id: 12,
+    title: "SASS",
+    percentage: "50",
+  },
+];
+
+export const portfolio = [
+  {
+    id: 1,
+    img: Work7,
+    title: "Zen Dashboard",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Description : ",
+        desc: "Student dashboard for ZEN class, enabling students to attend classes, submit assignments, ask questions, and request leaves. Mentors can easily evaluate tasks using their login.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Zen-class-student-dashboard-frontend",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://zen-class-student-dashboard.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React, Nodejs, chartjs, formik, toastify ,ExpressJs, Bootstrap, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: Work9,
+    title: "Share Space",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Description : ",
+        desc: "ShareSpace is a social media app for connecting with friends and sharing moments.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Share_Space_FE",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://social-share-space.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React, Nodejs, formik, ExpressJs, MUI, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: Work1,
+    title: "URL Shortner",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Description : ",
+        desc: "URL Shotner App, where You can shorten any URL using this App. These app created with Login and authentications.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/urlshortener-frontend-vite",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://url-shortner-vite-version.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React, Nodejs,  formik, toastify ,ExpressJs, Bootstrap, Axios, CSS, NPM Packages, MongoDB, mongoose, nodemailer, JWT, bcrypt",
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: Work2,
+    title: "Library Hub",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Library Hub: A front-end app for book management.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Dashboard_Library_management",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://library-management-sk7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React JS, Axios, CSS, React-icons",
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: Work3,
+    title: "Task Creator",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Task Creator: A React component for task assignment.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Interview-Task-all-time-design",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://alltimebest-task-manager.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "React Js, Material UI, CSS, React-Router-DOM, DOM API",
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work4,
+    title: "Todo App with MondoDB",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Todo App",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/TodoApp_FrontEnd_with_MongoDB",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://todoapp-suriya-k7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "ReactJs, NodeJs, ExpressJs, Bootstrap, Axios, CSS, MongoDB",
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work5,
+    title: "Weather App",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Weather App",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/WeatherApp_using_API",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://weather-app-using-api-sk7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "HTML, CSS, JavaScript, Web Api",
+      },
+    ],
+  },
+  {
+    id: 7,
+    img: Work6,
+    title: "Expence Tracker",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Expence Tracker",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Mini_HTML_CSS_JS_Projects/tree/expense-track",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://expense-tracker-sk7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "HTML, CSS, Javascript, DOM API",
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: "Creative SignIn Form",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Creative SignIn Form",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Code : ",
+        desc: "https://github.com/Suriya-K7/Mini_HTML_CSS_JS_Projects/tree/animated-login",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://animated-login-sk7.netlify.app/",
+      },
+      {
+        icon: <FaCode />,
+        title: "Tech Used : ",
+        desc: "HTML, CSS",
+      },
+    ],
+  },
+];
